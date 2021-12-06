@@ -37,41 +37,44 @@ CMP指令被分为了3个大类:
 
 ```c
 int test12(int n) {    
+    int ret = 0xa0;
     if (n == 1) {
-        return 0xa1;
+        ret = 0xa1;
     } else if (n == 2) {
-        return 0xa2;
+        ret = 0xa2;
     } else if (n == 3) {
-        return 0xa3;
+        ret = 0xa3;
     } else if (n == 4) {
-        return 0xa4;
+        ret = 0xa4;
     } else if (n == 5) {
-        return 0xa5;
+        ret = 0xa5;
     }
-    return n;
+    return ret;
 }
 
 int test13(int n) {
+    int ret = 0xa0;
     switch (n) {
         case 1:
-            return 0xa1;
+            ret = 0xa1;
             break;
         case 2:
-            return 0xa2;
+            ret = 0xa2;
             break;
         case 3:
-            return 0xa3;
+            ret = 0xa3;
             break;
         case 4:
-            return 0xa4;
+            ret = 0xa4;
             break;
         case 5:
-            return 0xa5;
+            ret = 0xa5;
             break;
         default:
+            ret = 0xa6;
             break;
     }
-    return n;
+    return ret;
 }
 ```
 
@@ -93,4 +96,22 @@ int test13(int n) {
 .text:000000000000098C                 STR             W8, [SP,#0x10+var_4]
 .text:0000000000000990                 B               loc_A2C
 ```
+![20211206225053](https://cdn.jsdelivr.net/gh/nzcv/picgo/20211206225053.png)
 
+
+# 关于Switch
+
+1. 假设 switch 内分支比较多的时候，在编译的时候会生成一个表（跳转表每个地址四个字节）；
+
+2. 假设 switch 内分支比较少的时候（例如3，少于4的时候没有意义），就没有必要使用此结构，相当于if...else语句的结构；
+
+3. 假设 switch 内各个分支常量的差值较大的时候，编译器会在效率还是内存之间进行取舍，如果效率优先的情况下，这个时候编译器还是会编译成类似于if..else的结构。
+
+
+```shell
+注意: 这里只在godbolt进行了复现, 在ndk-23上面并没有得到相同结果
+```
+
+[https://godbolt.org/z/M3YTjxMr9](https://godbolt.org/z/M3YTjxMr9)
+
+[https://www.jianshu.com/p/7e1eb1d72c83](https://www.jianshu.com/p/7e1eb1d72c83)
