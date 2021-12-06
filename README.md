@@ -1,6 +1,6 @@
 # note
 
-## arm64汇编学习
+## Arm64汇编学习
 
 [01.Arm寄存器](https://github.com/nzcv/note/tree/master/arm/01register.md)
 
