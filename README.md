@@ -17,3 +17,5 @@
 [07.Arm条件指令](https://github.com/nzcv/note/tree/master/arm/07condition.md)
 
 [08.Arm64堆栈保护机制](https://github.com/nzcv/note/tree/master/arm/08canary.md)
+
+[09.Arm IF Switch对应实现](https://github.com/nzcv/note/tree/master/arm/09if_switch.md)
