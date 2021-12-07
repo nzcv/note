@@ -1,8 +1,11 @@
+
 ![20211206175821](https://cdn.jsdelivr.net/gh/nzcv/picgo/20211206175821.png)
 
 # if/switch汇编实现原理
 
 研究if/switch语句必然少不了对应的条件判断, 以及对应的条件跳转.
+
+![20211207105140](https://cdn.jsdelivr.net/gh/nzcv/picgo/20211207105140.png)
 
 # 再次熟悉一下CMP指令
 
