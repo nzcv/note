@@ -151,3 +151,11 @@ hello:0000005FA6FDFC10 BL              unk_5FA6FDF6E0
 # help link
 
 [https://blog.iret.xyz/article.aspx/thread_pointer_aarch64](https://blog.iret.xyz/article.aspx/thread_pointer_aarch64)
+
+[Android逆向中的Canary机制](https://cataloc.gitee.io/blog/2021/04/24/Android%E9%80%86%E5%90%91%E4%B8%AD%E7%9A%84Canary%E6%9C%BA%E5%88%B6/#AArch32%E7%8A%B6%E6%80%81%E4%B8%8B%E7%9A%84Canary%E6%9C%BA%E5%88%B6)
+
+[https://www.cnblogs.com/leo0000/p/5719186.html](https://www.cnblogs.com/leo0000/p/5719186.html)
+
+[https://www.keil.com/support/man/docs/armclang_ref/armclang_ref_cjh1548250046139.htm](https://www.keil.com/support/man/docs/armclang_ref/armclang_ref_cjh1548250046139.htm)
+
+[https://www.cnblogs.com/gt-xy/p/7749725.html](https://www.cnblogs.com/gt-xy/p/7749725.html)
