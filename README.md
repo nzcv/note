@@ -4,7 +4,7 @@
 
 [01.Arm寄存器](https://github.com/nzcv/note/tree/master/arm/01register.md)
 
-[02.Arm读PC寄存器](https://github.com/nzcv/note/tree/master/arm/02read_pc.md)
+[02.Arm32读PC寄存器](https://github.com/nzcv/note/tree/master/arm/02read_pc.md)
 
 [03.Arm数据访问指令](https://github.com/nzcv/note/tree/master/arm/03data_processing.md)
 
