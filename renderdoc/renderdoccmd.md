@@ -101,6 +101,29 @@ if(Android::SupportsNativeLayers(m_deviceID))
       hookWithJDWP = false;
 ```
 
+如何使用native debug layering的?
+
+```c++
+D:/Android/sdk/platform-tools/adb '-s e06bd82c shell settings put global enable_gpu_debug_layers 1'
+D:/Android/sdk/platform-tools/adb '-s e06bd82c shell settings put global gpu_debug_app com.YourCompany.Demo'
+D:/Android/sdk/platform-tools/adb '-s e06bd82c shell settings put global gpu_debug_layer_app org.renderdoc.renderdoccmd.arm64'
+D:/Android/sdk/platform-tools/adb '-s e06bd82c shell settings put global gpu_debug_layers VK_LAYER_RENDERDOC_Capture'
+D:/Android/sdk/platform-tools/adb '-s e06bd82c shell settings put global gpu_debug_layers_gles libVkLayer_GLES_RenderDoc.so'
+```
+
+https://community.arm.com/cn/b/blog/posts/gl_5f00_khr_5f00_debug-arm-mali-gpu-opengl-es
+
+https://hub.vive.com/storage/docs/zh-cn/UnrealPlugin/RenderDoc/Unreal_RenderDoc.html
+
+
+## 关于Android10 使用GLES图层问题
+
+https://developer.android.google.cn/ndk/guides/rootless-debug-gles?hl=zh-cn
+
+重点关注 AndroidGLESLayer_Initialize
+
+eglCreateContext_renderdoc_hooked
+
 
 
 

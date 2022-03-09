@@ -17,7 +17,7 @@ Administrator@KING-20180416BY MINGW64 /f/F2022-02
 $ cd renderdoc/
 
 Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc
-$ cmake -DBUILD_ANDROID=On -DANDROID_ABI=armeabi-v7a -G "MinGW Makefiles" ..
+$ 
 CMake Error: The source directory "F:/F2022-02" does not appear to contain CMakeLists.txt.
 Specify --help for usage, or press the help button on the CMake GUI.
 

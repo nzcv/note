@@ -36,3 +36,7 @@ startActivity(viewIntent);
 // 加载renderdoccmd
 System.loadLibrary("renderdoccmd"); // this will load VkLayer_GLES_RenderDoc as well
 ```
+
+4. 关于VKLayer
+
+https://developer.android.com/ndk/guides/graphics
