@@ -1,0 +1,1187 @@
+
+Administrator@KING-20180416BY MINGW64 ~
+$ cd /f
+
+Administrator@KING-20180416BY MINGW64 /f
+$ cd F202
+F2021-05/ F2021-07/ F2021-10/ F2021-11/ F2021-12/ F2022-01/ F2022-02/
+
+Administrator@KING-20180416BY MINGW64 /f
+$ cd F2022-02/
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02
+$ cd
+Unreal Projects/ renderdoc/
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02
+$ cd renderdoc/
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc
+$ cmake -DBUILD_ANDROID=On -DANDROID_ABI=armeabi-v7a -G "MinGW Makefiles" ..
+CMake Error: The source directory "F:/F2022-02" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc
+$ cd build-android/
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ ls
+CMakeCache.txt  CMakeFiles  git_HEAD  git_ref
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ rm -rf *
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ cmake -DBUILD_ANDROID=On -DANDROID_ABI=armeabi-v7a -G "MinGW Makefiles" ..
+-- Using JAVA_HOME = D:\Unity3d\2020.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK
+-- Java in JAVA_HOME is 1.8
+-- Using Android SDK found in D:\Android\sdk
+-- Using Android NDK found in D:\Android\sdk\ndk\21.4.7075529
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Calculating version
+-- Building RenderDoc version 1.19
+-- Disabling GL driver on android
+-- Disabling qrenderdoc for android build
+-- Disabling renderdoc python modules for android build
+-- Using Android ABI armeabi-v7a
+-- Using Android native API level 21
+-- Interceptor-lib not enabled (USE_INTERCEPTOR_LIB) - android hooking will use sometimes less reliable PLT-interception method.
+CMake Error at I:/msys64/mingw64/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find Java (missing: Java_JAVA_EXECUTABLE Java_JAR_EXECUTABLE
+  Java_JAVAC_EXECUTABLE Java_JAVAH_EXECUTABLE Java_JAVADOC_EXECUTABLE)
+Call Stack (most recent call first):
+  I:/msys64/mingw64/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+  I:/msys64/mingw64/share/cmake-3.22/Modules/FindJava.cmake:336 (find_package_handle_standard_args)
+  renderdoccmd/CMakeLists.txt:95 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "F:/F2022-02/renderdoc/build-android/CMakeFiles/CMakeOutput.log".
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ cd ..
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc
+$ git s
+git: 's' is not a git command. See 'git --help'.
+
+The most similar commands are
+        show
+        status
+        switch
+        svn
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc
+$ git status
+Refresh index: 100% (5587/5587), done.
+On branch v1.x
+Your branch is up to date with 'origin/v1.x'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        220_build_cmake.bat
+        _build_armeabi-v7a/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc
+$ cmake -DBUILD_ANDROID=On -DANDROID_ABI=armeabi-v7a -G "MinGW Makefiles" ..
+CMake Error: The source directory "F:/F2022-02" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc
+$ cd build-android/
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ cmake -DBUILD_ANDROID=On -DANDROID_ABI=armeabi-v7a -G "MinGW Makefiles" ..
+-- Using JAVA_HOME = D:\Unity3d\2020.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK
+-- Java in JAVA_HOME is 1.8
+-- Using Android SDK found in D:\Android\sdk
+-- Using Android NDK found in D:\Android\sdk\ndk\21.4.7075529
+-- Calculating version
+-- Building RenderDoc version 1.19
+-- Disabling qrenderdoc for android build
+-- Disabling renderdoc python modules for android build
+-- Using Android ABI armeabi-v7a
+-- Using Android native API level 21
+-- Interceptor-lib not enabled (USE_INTERCEPTOR_LIB) - android hooking will use sometimes less reliable PLT-interception method.
+CMake Error at I:/msys64/mingw64/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find Java (missing: Java_JAVA_EXECUTABLE Java_JAR_EXECUTABLE
+  Java_JAVAC_EXECUTABLE Java_JAVAH_EXECUTABLE Java_JAVADOC_EXECUTABLE)
+Call Stack (most recent call first):
+  I:/msys64/mingw64/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+  I:/msys64/mingw64/share/cmake-3.22/Modules/FindJava.cmake:336 (find_package_handle_standard_args)
+  renderdoccmd/CMakeLists.txt:95 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "F:/F2022-02/renderdoc/build-android/CMakeFiles/CMakeOutput.log".
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ cmake -DBUILD_ANDROID=On -DANDROID_ABI=armeabi-v7a -G "MinGW Makefiles" ..
+-- Using JAVA_HOME = D:\Unity3d\2020.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK
+-- Java in JAVA_HOME is 1.8
+-- Using Android SDK found in D:\Android\sdk
+-- Using Android NDK found in D:\Android\sdk\ndk\21.4.7075529
+-- Calculating version
+-- Building RenderDoc version 1.19
+-- Disabling qrenderdoc for android build
+-- Disabling renderdoc python modules for android build
+-- Using Android ABI armeabi-v7a
+-- Using Android native API level 21
+-- Interceptor-lib not enabled (USE_INTERCEPTOR_LIB) - android hooking will use sometimes less reliable PLT-interception method.
+-- Found Java: D:/Unity3d/2020.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/bin/java.exe (found version "1.8.0-adoptopenjdk")
+-- Using Java of version 1.8.0
+-- Using Android build-tools version 29.0.2
+-- Using android.jar from platform android-28
+-- Building APK versionCode 119, versionName 6bd8bcee606dc697c39c57ee3ecaded22eea9ccf
+-- Enabled APIs:
+--   - OpenGL ES (EGL)
+--   - Vulkan
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/F2022-02/renderdoc/build-android
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ mingw32-make -j8
+[  0%] Building CXX object renderdoc/CMakeFiles/renderdoc_libentry.dir/os/posix/posix_libentry.cpp.o
+[  0%] Building CXX object renderdoc/CMakeFiles/rdoc_version.dir/replay/version.cpp.o
+[  0%] Building CXX object renderdoc/driver/ihv/intel/CMakeFiles/rdoc_intel.dir/intel_gl_counters.cpp.o
+[  0%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_common.cpp.o
+[  0%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_common.cpp.o
+[  0%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/common/common.cpp.o
+[  0%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/glslang_compile.cpp.o
+[  0%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/arm_counters.cpp.o
+[  0%] Built target rdoc_version
+[  0%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_counters.cpp.o
+[  1%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/common/dds_readwrite.cpp.o
+[  1%] Linking CXX static library librenderdoc_libentry.a
+[  1%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/lizard_api.cpp.o
+[  1%] Built target renderdoc_libentry
+[  2%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_next_chains.cpp.o
+[  2%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/common/threading_tests.cpp.o
+[  2%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_common.cpp.o
+[  2%] Built target rdoc_intel
+[  3%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_debug.cpp.o
+[  3%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/core.cpp.o
+[  4%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/lizard.cpp.o
+[  5%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_editor.cpp.o
+[  5%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_core.cpp.o
+[  6%] Building CXX object renderdoc/driver/ihv/amd/CMakeFiles/rdoc_amd.dir/amd_counters.cpp.o
+[  7%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/image_viewer.cpp.o
+[  7%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/lizard_counter.cpp.o
+[  7%] Building CXX object renderdoc/driver/ihv/amd/CMakeFiles/rdoc_amd.dir/amd_isa.cpp.o
+[  7%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_gen.cpp.o
+[  7%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/lizard_communication.cpp.o
+[  7%] Building CXX object renderdoc/driver/ihv/amd/CMakeFiles/rdoc_amd.dir/amd_isa_devices.cpp.o
+[  7%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_postvs.cpp.o
+[  7%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/target_control.cpp.o
+[  8%] Building CXX object renderdoc/driver/ihv/amd/CMakeFiles/rdoc_amd.dir/amd_isa_posix.cpp.o
+[  8%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_counters.cpp.o
+[  9%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/hwcpipe_communication.cpp.o
+[  9%] Building CXX object renderdoc/driver/ihv/amd/CMakeFiles/rdoc_amd.dir/amd_rgp.cpp.o
+[  9%] Built target rdoc_amd
+[  9%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_compile.cpp.o
+[  9%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/hwcpipe_api.cpp.o
+[  9%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_overlay.cpp.o
+[ 10%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_debug.cpp.o
+[ 10%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/gatord_xml_reader.cpp.o
+[ 10%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/remote_server.cpp.o
+[ 11%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_debug_setup.cpp.o
+[ 12%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/gator_api.cpp.o
+[ 13%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_outputwindow.cpp.o
+[ 14%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/settings.cpp.o
+[ 14%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/gator_message.cpp.o
+[ 14%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/message_util.cpp.o
+[ 15%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/socket.cpp.o
+[ 15%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_postvs.cpp.o
+[ 15%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/thirdparty/hwcpipe/hwcpipe.cpp.o
+[ 15%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_rendermesh.cpp.o
+[ 15%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_debug_glsl450.cpp.o
+[ 15%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/thirdparty/hwcpipe/vendor/arm/mali/mali_profiler.cpp.o
+[ 15%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_rendertexture.cpp.o
+[ 15%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_debug.cpp.o
+[ 15%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/replay_proxy.cpp.o
+[ 15%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_shader_feedback.cpp.o
+[ 15%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/thirdparty/hwcpipe/vendor/arm/pmu/pmu_counter.cpp.o
+[ 15%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/intervals_tests.cpp.o
+[ 16%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_reflect.cpp.o
+[ 17%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_rendertext.cpp.o
+[ 18%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_overlay.cpp.o
+[ 19%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/thirdparty/hwcpipe/vendor/arm/pmu/pmu_profiler.cpp.o
+[ 19%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_msaa_array_conv.cpp.o
+[ 19%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_processor.cpp.o
+[ 19%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/bit_flag_iterator_tests.cpp.o
+[ 19%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_msaa_array_conv.cpp.o
+[ 19%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_driver.cpp.o
+[ 19%] Built target rdoc_arm
+[ 19%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_disassemble.cpp.o
+[ 20%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/android.cpp.o
+[ 20%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_initstate.cpp.o
+[ 20%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/android_patch.cpp.o
+[ 20%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_outputwindow.cpp.o
+[ 21%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_manager.cpp.o
+[ 22%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_stringise.cpp.o
+[ 23%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_rendermesh.cpp.o
+[ 23%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/OGLCompilersDLL/InitializeDll.cpp.o
+[ 23%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_renderstate.cpp.o
+[ 23%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/GlslangToSpv.cpp.o
+[ 23%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_rendertexture.cpp.o
+[ 23%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/android_tools.cpp.o
+[ 23%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/InReadableOrder.cpp.o
+[ 23%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_replay.cpp.o
+[ 25%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/Logger.cpp.o
+[ 25%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/android_utils.cpp.o
+[ 26%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_resources.cpp.o
+[ 26%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/android_manifest.cpp.o
+[ 26%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_rendertext.cpp.o
+[ 26%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_program_iterate.cpp.o
+[ 26%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/SpvBuilder.cpp.o
+[ 26%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/jdwp.cpp.o
+[ 26%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_shader_cache.cpp.o
+[ 26%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/SpvTools.cpp.o
+[ 27%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/jdwp_util.cpp.o
+[ 27%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_shader_refl.cpp.o
+[ 27%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/jdwp_connection.cpp.o
+[ 28%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_dispatchtables.cpp.o
+[ 29%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/SpvPostProcess.cpp.o
+[ 29%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/plugins.cpp.o
+[ 29%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/GenericCodeGen/CodeGen.cpp.o
+[ 30%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_stringise.cpp.o
+[ 31%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/resource_manager.cpp.o
+[ 31%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/GenericCodeGen/Link.cpp.o
+[ 31%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_buffer_funcs.cpp.o
+[ 31%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/sparse_page_table.cpp.o
+[ 31%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_image_states.cpp.o
+[ 32%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/Constant.cpp.o
+[ 32%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_debug_funcs.cpp.o
+[ 32%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/hooks/hooks.cpp.o
+[ 32%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_info.cpp.o
+[ 32%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/maths/camera.cpp.o
+[ 33%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_draw_funcs.cpp.o
+[ 33%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/glslang_tab.cpp.o
+[ 34%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/maths/formatpacking.cpp.o
+[ 34%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_emulated.cpp.o
+[ 35%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_initstate.cpp.o
+[ 35%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/maths/matrix.cpp.o
+[ 35%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/iomapper.cpp.o
+[ 35%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/maths/vec.cpp.o
+[ 36%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/os_specific.cpp.o
+[ 36%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/app_api.cpp.o
+[ 36%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_manager.cpp.o
+[ 36%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/basic_types_tests.cpp.o
+[ 36%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/InfoSink.cpp.o
+[ 37%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/capture_options.cpp.o
+[ 37%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_memory.cpp.o
+[ 37%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/dummy_driver.cpp.o
+[ 37%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_framebuffer_funcs.cpp.o
+[ 38%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/Initialize.cpp.o
+[ 38%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/capture_file.cpp.o
+[ 38%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/Intermediate.cpp.o
+[ 39%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_pixelhistory.cpp.o
+[ 40%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/entry_points.cpp.o
+[ 40%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_get_funcs.cpp.o
+[ 40%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/replay_driver.cpp.o
+[ 40%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/intermOut.cpp.o
+[ 41%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_interop_funcs.cpp.o
+[ 41%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/replay_output.cpp.o
+[ 41%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_replay.cpp.o
+[ 41%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_query_funcs.cpp.o
+[ 42%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/IntermTraverse.cpp.o
+[ 42%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/replay_controller.cpp.o
+[ 42%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_resources.cpp.o
+[ 42%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_sampler_funcs.cpp.o
+[ 42%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/limits.cpp.o
+[ 43%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/serialiser.cpp.o
+[ 43%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/linkValidate.cpp.o
+[ 44%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_shaderdebug.cpp.o
+[ 44%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/lz4io.cpp.o
+[ 45%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/parseConst.cpp.o
+[ 45%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_state.cpp.o
+[ 46%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_shader_funcs.cpp.o
+[ 46%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/zstdio.cpp.o
+[ 46%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/ParseContextBase.cpp.o
+[ 47%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/streamio.cpp.o
+[ 47%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_serialise.cpp.o
+[ 47%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/rdcfile.cpp.o
+[ 47%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_state_funcs.cpp.o
+[ 47%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/codecs/xml_codec.cpp.o
+[ 47%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/ParseHelper.cpp.o
+[ 47%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_texture_funcs.cpp.o
+[ 48%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/PoolAlloc.cpp.o
+[ 49%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/codecs/chrome_json_codec.cpp.o
+[ 50%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_uniform_funcs.cpp.o
+[ 50%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/comp_io_tests.cpp.o
+[ 50%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/serialiser_tests.cpp.o
+[ 50%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_stringise.cpp.o
+[ 51%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/streamio_tests.cpp.o
+[ 51%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/strings/grisu2.cpp.o
+[ 51%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/propagateNoContraction.cpp.o
+[ 51%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/strings/string_utils.cpp.o
+[ 51%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/strings/utf8printf.cpp.o
+[ 52%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/jpeg-compressor/jpgd.cpp.o
+[ 52%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_hooks.cpp.o
+[ 53%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_layer.cpp.o
+[ 53%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/jpeg-compressor/jpge.cpp.o
+[ 53%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp.o
+[ 53%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/imagestate_tests.cpp.o
+[ 53%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/catch/catch.cpp.o
+[ 53%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/egl_platform.cpp.o
+[ 54%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/pugixml/pugixml.cpp.o
+[ 54%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/imgrefs_tests.cpp.o
+[ 55%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/egl_hooks.cpp.o
+[ 55%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp.o
+[ 55%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/lz4/lz4.c.o
+[ 56%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_cmd_funcs.cpp.o
+[ 57%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp.o
+[ 57%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/md5/md5.c.o
+[ 58%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/miniz/miniz.c.o
+[ 58%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_descriptor_funcs.cpp.o
+[ 58%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/superluminal/superluminal.cpp.o
+[ 58%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp.o
+[ 58%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_device_funcs.cpp.o
+[ 58%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/debug.c.o
+[ 59%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/entropy_common.c.o
+[ 59%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/error_private.c.o
+[ 59%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/fse_compress.c.o
+[ 59%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/fse_decompress.c.o
+[ 60%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/hist.c.o
+[ 61%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_draw_funcs.cpp.o
+[ 61%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/huf_compress.c.o
+[ 61%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/huf_decompress.c.o
+[ 62%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/pool.c.o
+[ 62%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/threading.c.o
+[ 62%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp.o
+[ 62%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/xxhash.c.o
+[ 63%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_common.c.o
+[ 63%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_compress.c.o
+[ 63%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_decompress.c.o
+[ 64%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/reflection.cpp.o
+[ 65%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_double_fast.c.o
+[ 65%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_fast.c.o
+[ 65%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/RemoveTree.cpp.o
+[ 65%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_lazy.c.o
+[ 65%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_ldm.c.o
+[ 66%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_opt.c.o
+[ 66%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_dynamic_funcs.cpp.o
+[ 66%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/Scan.cpp.o
+[ 66%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstdmt_compress.c.o
+[ 67%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/ShaderLang.cpp.o
+[ 67%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/stb/stb_impl.c.o
+[ 68%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/tinyexr/tinyexr.cpp.o
+[ 68%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/SymbolTable.cpp.o
+[ 68%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/tinyfiledialogs/tinyfiledialogs.c.o
+[ 68%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_get_funcs.cpp.o
+[ 68%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/Versions.cpp.o
+[ 68%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_stringio.cpp.o
+[ 69%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_misc_funcs.cpp.o
+[ 70%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/attribute.cpp.o
+[ 71%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_callstack.cpp.o
+[ 71%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/OSDependent/Unix/ossource.cpp.o
+[ 71%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_process.cpp.o
+[ 71%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_queue_funcs.cpp.o
+[ 71%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_resource_funcs.cpp.o
+[ 71%] Built target rdoc_gl
+[ 71%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_threading.cpp.o
+[ 71%] Built target rdoc_spirv
+[ 72%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_sync_funcs.cpp.o
+[ 72%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_shader_funcs.cpp.o
+[ 72%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_hook.cpp.o
+[ 73%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_network.cpp.o
+[ 73%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_wsi_funcs.cpp.o
+[ 73%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/posix_network.cpp.o
+[ 73%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/posix_process.cpp.o
+[ 74%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/posix_stringio.cpp.o
+[ 74%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/posix_threading.cpp.o
+[ 74%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_posix.cpp.o
+[ 74%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/data/glsl_shaders.cpp.o
+[ 74%] Built target rdoc
+[ 75%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_android.cpp.o
+[ 75%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_layer_android.cpp.o
+[ 75%] Built target rdoc_vulkan
+[ 75%] Generating ../bin/include-bin
+'c++' is not recognized as an internal or external command,
+operable program or batch file.
+mingw32-make[2]: *** [renderdoc\CMakeFiles\renderdoc.dir\build.make:290: bin/include-bin] Error 1
+mingw32-make[1]: *** [CMakeFiles\Makefile2:315: renderdoc/CMakeFiles/renderdoc.dir/all] Error 2
+mingw32-make: *** [Makefile:135: all] Error 2
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ pacman -S mingw-w64-x86_64-gcc
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (7) mingw-w64-x86_64-binutils-2.37-4  mingw-w64-x86_64-crt-git-9.0.0.6373.5be8fcd83-1
+             mingw-w64-x86_64-headers-git-9.0.0.6373.5be8fcd83-1  mingw-w64-x86_64-isl-0.24-1
+             mingw-w64-x86_64-windows-default-manifest-6.4-3  mingw-w64-x86_64-winpthreads-git-9.0.0.6373.5be8fcd83-1
+             mingw-w64-x86_64-gcc-11.2.0-8
+
+Total Download Size:    43.79 MiB
+Total Installed Size:  381.20 MiB
+
+:: Proceed with installation? [Y/n]
+:: Retrieving packages...
+ mingw-w64-x86_64-isl-0.24-1-any                        949.7 KiB   334 KiB/s 00:03 [###############################################] 100%
+ mingw-w64-x86_64-winpthreads-git-9.0.0.6373.5be8f...    38.5 KiB  30.7 KiB/s 00:01 [###############################################] 100%
+ mingw-w64-x86_64-windows-default-manifest-6.4-3-any     12.9 KiB  39.7 KiB/s 00:00 [###############################################] 100%
+ mingw-w64-x86_64-crt-git-9.0.0.6373.5be8fcd83-1-any      3.3 MiB   468 KiB/s 00:07 [###############################################] 100%
+ mingw-w64-x86_64-headers-git-9.0.0.6373.5be8fcd83...     5.3 MiB   662 KiB/s 00:08 [###############################################] 100%
+ mingw-w64-x86_64-binutils-2.37-4-any                     5.7 MiB   657 KiB/s 00:09 [###############################################] 100%
+ mingw-w64-x86_64-gcc-11.2.0-8-any                       28.6 MiB   607 KiB/s 00:48 [###############################################] 100%
+ Total (7/7)                                             43.8 MiB   914 KiB/s 00:49 [###############################################] 100%
+(7/7) checking keys in keyring                                                      [###############################################] 100%
+(7/7) checking package integrity                                                    [###############################################] 100%
+(7/7) loading package files                                                         [###############################################] 100%
+(7/7) checking for file conflicts                                                   [###############################################] 100%
+(7/7) checking available disk space                                                 [###############################################] 100%
+:: Processing package changes...
+(1/7) installing mingw-w64-x86_64-binutils                                          [###############################################] 100%
+(2/7) installing mingw-w64-x86_64-headers-git                                       [###############################################] 100%
+(3/7) installing mingw-w64-x86_64-crt-git                                           [###############################################] 100%
+(4/7) installing mingw-w64-x86_64-isl                                               [###############################################] 100%
+(5/7) installing mingw-w64-x86_64-windows-default-manifest                          [###############################################] 100%
+(6/7) installing mingw-w64-x86_64-winpthreads-git                                   [###############################################] 100%
+(7/7) installing mingw-w64-x86_64-gcc                                               [###############################################] 100%
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ mingw32-make -j8
+Consolidate compiler generated dependencies of target rdoc_version
+[  0%] Built target rdoc_version
+Consolidate compiler generated dependencies of target renderdoc_libentry
+Consolidate compiler generated dependencies of target rdoc_intel
+[  0%] Built target renderdoc_libentry
+[  0%] Built target rdoc_intel
+Consolidate compiler generated dependencies of target rdoc_amd
+Consolidate compiler generated dependencies of target rdoc_arm
+[  2%] Built target rdoc_amd
+Consolidate compiler generated dependencies of target rdoc_gl
+[  7%] Built target rdoc_arm
+Consolidate compiler generated dependencies of target rdoc_vulkan
+Consolidate compiler generated dependencies of target rdoc_spirv
+[ 18%] Built target rdoc_gl
+Consolidate compiler generated dependencies of target rdoc
+[ 32%] Built target rdoc_vulkan
+[ 47%] Built target rdoc_spirv
+[ 75%] Built target rdoc
+[ 75%] Generating ../bin/include-bin
+[ 76%] Generating CMakeFiles/data.src/data/glsl/blit.vert.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/checkerboard.frag.c
+[ 78%] Generating CMakeFiles/data.src/driver/vulkan/renderdoc.json.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/deptharr2ms.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/array2ms.comp.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/depthms2arr.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/discard.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/fixedcol.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/glsl_globals.h.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/gl_texsample.h.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/gltext.frag.c
+[ 79%] Generating CMakeFiles/data.src/data/glsl/glsl_ubos.h.c
+[ 79%] Generating CMakeFiles/data.src/data/glsl/gles_texsample.h.c
+[ 80%] Generating CMakeFiles/data.src/data/glsl/histogram.comp.c
+[ 81%] Generating CMakeFiles/data.src/data/glsl/gltext.vert.c
+[ 81%] Generating CMakeFiles/data.src/data/glsl/mesh.comp.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/mesh.frag.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/mesh.geom.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/mesh.vert.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/minmaxresult.comp.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/ms2array.comp.c
+[ 83%] Generating CMakeFiles/data.src/data/glsl/minmaxtile.comp.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy_depth.comp.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy.comp.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_primid.frag.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/quadresolve.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/texdisplay.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/shaderdebug_sample.vert.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/quadwrite.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/texremap.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/trisize.geom.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/trisize.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/vk_texsample.h.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/vktext.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/vktext.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/sourcecodepro.ttf.c
+[ 86%] Generating ../bin/include-bin
+[ 86%] Generating CMakeFiles/data.src/data/glsl/checkerboard.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/glsl_ubos.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/glsl_globals.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/fixedcol.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/blit.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/histogram.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/minmaxresult.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.geom.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/minmaxtile.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/quadresolve.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/quadwrite.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy_depth.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_primid.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/shaderdebug_sample.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/texdisplay.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/texremap.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gl_texsample.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gles_texsample.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/vk_texsample.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gltext.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gltext.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/vktext.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/vktext.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/ms2array.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/array2ms.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/trisize.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/trisize.geom.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/deptharr2ms.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/depthms2arr.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/discard.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/sourcecodepro.ttf.c
+[ 87%] Generating CMakeFiles/data.src/driver/vulkan/renderdoc.json.c
+[ 87%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/blit.vert.c.o
+[ 87%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/glsl_ubos.h.c.o
+[ 87%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/checkerboard.frag.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/glsl_globals.h.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/fixedcol.frag.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/histogram.comp.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.comp.c.o
+[ 89%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.frag.c.o
+[ 89%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.geom.c.o
+[ 89%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.vert.c.o
+[ 90%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/minmaxresult.comp.c.o
+[ 90%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/minmaxtile.comp.c.o
+[ 90%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/quadresolve.frag.c.o
+[ 91%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/quadwrite.frag.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/pixelhistory_mscopy.comp.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/pixelhistory_mscopy_depth.comp.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/pixelhistory_primid.frag.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/shaderdebug_sample.vert.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/texdisplay.frag.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/texremap.frag.c.o
+[ 93%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gles_texsample.h.c.o
+[ 93%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gl_texsample.h.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gltext.frag.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/vk_texsample.h.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gltext.vert.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/vktext.frag.c.o
+[ 95%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/vktext.vert.c.o
+[ 95%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/array2ms.comp.c.o
+[ 95%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/ms2array.comp.c.o
+[ 95%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/trisize.geom.c.o
+[ 96%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/trisize.frag.c.o
+[ 96%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/deptharr2ms.frag.c.o
+[ 97%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/discard.frag.c.o
+[ 97%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/depthms2arr.frag.c.o
+[ 97%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/sourcecodepro.ttf.c.o
+[ 97%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/driver/vulkan/renderdoc.json.c.o
+[ 98%] Linking CXX shared library ..\lib\libVkLayer_GLES_RenderDoc.so
+[ 98%] Built target renderdoc
+[ 99%] Building CXX object renderdoccmd/CMakeFiles/renderdoccmd.dir/renderdoccmd_android.cpp.o
+[ 99%] Building CXX object renderdoccmd/CMakeFiles/renderdoccmd.dir/renderdoccmd.cpp.o
+[ 99%] Building C object renderdoccmd/CMakeFiles/renderdoccmd.dir/D_/Android/sdk/ndk/21.4.7075529/sources/android/native_app_glue/android_native_app_glue.c.o
+[100%] Linking CXX shared library ..\lib\librenderdoccmd.so
+[100%] Built target renderdoccmd
+[100%] Generating debug.keystore
+
+Warning:
+JKS ▒▒Կ▒▒ʹ▒▒ר▒ø▒ʽ▒▒▒▒▒▒ʹ▒▒ "keytool -importkeystore -srckeystore F:/F2022-02/renderdoc/build-android/renderdoccmd/debug.keystore -destkeystore F:/F2022-02/renderdoc/build-android/renderdoccmd/debug.keystore -deststoretype pkcs12" Ǩ▒Ƶ▒▒▒ҵ▒▒׼▒▒ʽ PKCS12▒▒
+[100%] Generating ../bin/org.renderdoc.renderdoccmd.arm32.apk
+Warning in obj\org\renderdoc\renderdoccmd\arm32\Loader.class:
+  Type `java.lang.System` was not found, it is required for default or static interface methods desugaring of `void org.renderdoc.renderdoccmd.arm32.Loader.<clinit>()`
+Warning in obj\org\renderdoc\renderdoccmd\arm32\Loader.class:
+  Type `android.app.NativeActivity` was not found, it is required for default or static interface methods desugaring of `void org.renderdoc.renderdoccmd.arm32.Loader.onCreate(android.os.Bundle)`
+Warning in obj\org\renderdoc\renderdoccmd\arm32\Loader.class:
+  Type `java.lang.Thread` was not found, it is required for default or static interface methods desugaring of `void org.renderdoc.renderdoccmd.arm32.Loader.onCreate(android.os.Bundle)`
+[100%] Built target apk
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ mingw32-make -j8
+[  0%] Built target rdoc_version
+[  0%] Built target renderdoc_libentry
+[  0%] Built target rdoc_intel
+[  5%] Built target rdoc_arm
+[ 16%] Built target rdoc_gl
+[ 30%] Built target rdoc_vulkan
+[ 32%] Built target rdoc_amd
+[ 47%] Built target rdoc_spirv
+[ 75%] Built target rdoc
+[ 75%] Generating ../bin/include-bin
+[ 75%] Generating CMakeFiles/data.src/data/glsl/blit.vert.c
+[ 77%] Generating CMakeFiles/data.src/driver/vulkan/renderdoc.json.c
+[ 77%] Generating CMakeFiles/data.src/data/glsl/array2ms.comp.c
+[ 77%] Generating CMakeFiles/data.src/data/glsl/checkerboard.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/discard.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/depthms2arr.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/deptharr2ms.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/fixedcol.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/gl_texsample.h.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/glsl_globals.h.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/glsl_ubos.h.c
+[ 79%] Generating CMakeFiles/data.src/data/glsl/gles_texsample.h.c
+[ 80%] Generating CMakeFiles/data.src/data/glsl/gltext.vert.c
+[ 80%] Generating CMakeFiles/data.src/data/glsl/gltext.frag.c
+[ 81%] Generating CMakeFiles/data.src/data/glsl/histogram.comp.c
+[ 81%] Generating CMakeFiles/data.src/data/glsl/mesh.comp.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/mesh.geom.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/mesh.frag.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/mesh.vert.c
+[ 83%] Generating CMakeFiles/data.src/data/glsl/minmaxtile.comp.c
+[ 83%] Generating CMakeFiles/data.src/data/glsl/minmaxresult.comp.c
+[ 83%] Generating CMakeFiles/data.src/data/glsl/ms2array.comp.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy.comp.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy_depth.comp.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_primid.frag.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/quadresolve.frag.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/shaderdebug_sample.vert.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/texremap.frag.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/quadwrite.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/texdisplay.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/trisize.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/trisize.geom.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/vk_texsample.h.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/vktext.vert.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/vktext.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/sourcecodepro.ttf.c
+Consolidate compiler generated dependencies of target renderdoc
+[ 86%] Generating ../bin/include-bin
+[ 86%] Generating CMakeFiles/data.src/data/glsl/blit.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/glsl_ubos.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/glsl_globals.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/checkerboard.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/histogram.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/fixedcol.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.geom.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/minmaxtile.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/minmaxresult.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/quadresolve.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/quadwrite.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy_depth.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/shaderdebug_sample.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/texdisplay.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_primid.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/texremap.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gles_texsample.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gl_texsample.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/vk_texsample.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gltext.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/vktext.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/vktext.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gltext.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/array2ms.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/trisize.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/ms2array.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/trisize.geom.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/deptharr2ms.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/discard.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/depthms2arr.frag.c
+[ 86%] Generating CMakeFiles/data.src/driver/vulkan/renderdoc.json.c
+[ 86%] Generating CMakeFiles/data.src/data/sourcecodepro.ttf.c
+[ 86%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/checkerboard.frag.c.o
+[ 87%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/blit.vert.c.o
+[ 87%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/glsl_ubos.h.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/glsl_globals.h.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/fixedcol.frag.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/histogram.comp.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.comp.c.o
+[ 89%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.frag.c.o
+[ 89%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.vert.c.o
+[ 90%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/minmaxresult.comp.c.o
+[ 90%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.geom.c.o
+[ 90%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/minmaxtile.comp.c.o
+[ 90%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/quadresolve.frag.c.o
+[ 91%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/quadwrite.frag.c.o
+[ 91%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/pixelhistory_mscopy.comp.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/pixelhistory_mscopy_depth.comp.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/pixelhistory_primid.frag.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/shaderdebug_sample.vert.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/texdisplay.frag.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/texremap.frag.c.o
+[ 93%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gl_texsample.h.c.o
+[ 93%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gles_texsample.h.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gltext.frag.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/vk_texsample.h.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gltext.vert.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/vktext.frag.c.o
+[ 95%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/vktext.vert.c.o
+[ 95%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/array2ms.comp.c.o
+[ 95%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/ms2array.comp.c.o
+[ 96%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/trisize.frag.c.o
+[ 96%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/trisize.geom.c.o
+[ 96%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/deptharr2ms.frag.c.o
+[ 96%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/depthms2arr.frag.c.o
+[ 97%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/discard.frag.c.o
+[ 97%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/sourcecodepro.ttf.c.o
+[ 97%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/driver/vulkan/renderdoc.json.c.o
+[ 98%] Linking CXX shared library ..\lib\libVkLayer_GLES_RenderDoc.so
+[ 98%] Built target renderdoc
+Consolidate compiler generated dependencies of target renderdoccmd
+[ 99%] Linking CXX shared library ..\lib\librenderdoccmd.so
+[100%] Built target renderdoccmd
+[100%] Generating ../bin/org.renderdoc.renderdoccmd.arm32.apk
+Warning in obj\org\renderdoc\renderdoccmd\arm32\Loader.class:
+  Type `java.lang.System` was not found, it is required for default or static interface methods desugaring of `void org.renderdoc.renderdoccmd.arm32.Loader.<clinit>()`
+Warning in obj\org\renderdoc\renderdoccmd\arm32\Loader.class:
+  Type `android.app.NativeActivity` was not found, it is required for default or static interface methods desugaring of `void org.renderdoc.renderdoccmd.arm32.Loader.onCreate(android.os.Bundle)`
+Warning in obj\org\renderdoc\renderdoccmd\arm32\Loader.class:
+  Type `java.lang.Thread` was not found, it is required for default or static interface methods desugaring of `void org.renderdoc.renderdoccmd.arm32.Loader.onCreate(android.os.Bundle)`
+[100%] Built target apk
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ start .
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android
+$ cd ..
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc
+$ mkdir mkdir build-android64
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc
+$ cd build-android64
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android64
+$ cmake -DBUILD_ANDROID=On -DANDROID_ABI=arm64-v8a -G "MinGW Makefiles" ..
+-- Using JAVA_HOME = D:\Unity3d\2020.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK
+-- Java in JAVA_HOME is 1.8
+-- Using Android SDK found in D:\Android\sdk
+-- Using Android NDK found in D:\Android\sdk\ndk\21.4.7075529
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Calculating version
+-- Building RenderDoc version 1.19
+-- Disabling GL driver on android
+-- Disabling qrenderdoc for android build
+-- Disabling renderdoc python modules for android build
+-- Using Android ABI arm64-v8a
+-- Using Android native API level 21
+-- Interceptor-lib not enabled (USE_INTERCEPTOR_LIB) - android hooking will use sometimes less reliable PLT-interception method.
+-- Found Java: D:/Unity3d/2020.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK/bin/java.exe (found version "1.8.0-adoptopenjdk")
+-- Using Java of version 1.8.0
+-- Using Android build-tools version 29.0.2
+-- Using android.jar from platform android-28
+-- Building APK versionCode 119, versionName 6bd8bcee606dc697c39c57ee3ecaded22eea9ccf
+-- Enabled APIs:
+--   - OpenGL ES (EGL)
+--   - Vulkan
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/F2022-02/renderdoc/build-android64
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android64
+$ mingw32-make -j8
+[  0%] Building CXX object renderdoc/CMakeFiles/rdoc_version.dir/replay/version.cpp.o
+[  0%] Building CXX object renderdoc/CMakeFiles/renderdoc_libentry.dir/os/posix/posix_libentry.cpp.o
+[  0%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_common.cpp.o
+[  0%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/arm_counters.cpp.o
+[  0%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/common/common.cpp.o
+[  0%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_common.cpp.o
+[  0%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/glslang_compile.cpp.o
+[  0%] Building CXX object renderdoc/driver/ihv/intel/CMakeFiles/rdoc_intel.dir/intel_gl_counters.cpp.o
+[  0%] Built target rdoc_version
+[  0%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_counters.cpp.o
+[  1%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/common/dds_readwrite.cpp.o
+[  1%] Linking CXX static library librenderdoc_libentry.a
+[  1%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/lizard_api.cpp.o
+[  1%] Built target renderdoc_libentry
+[  2%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_next_chains.cpp.o
+[  2%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_common.cpp.o
+[  2%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/common/threading_tests.cpp.o
+[  2%] Built target rdoc_intel
+[  3%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/lizard.cpp.o
+[  4%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_debug.cpp.o
+[  4%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/core.cpp.o
+[  5%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_editor.cpp.o
+[  5%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_core.cpp.o
+[  6%] Building CXX object renderdoc/driver/ihv/amd/CMakeFiles/rdoc_amd.dir/amd_counters.cpp.o
+[  6%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/lizard_counter.cpp.o
+[  7%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/image_viewer.cpp.o
+[  7%] Building CXX object renderdoc/driver/ihv/amd/CMakeFiles/rdoc_amd.dir/amd_isa.cpp.o
+[  7%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/lizard_communication.cpp.o
+[  7%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_gen.cpp.o
+[  7%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_postvs.cpp.o
+[  7%] Building CXX object renderdoc/driver/ihv/amd/CMakeFiles/rdoc_amd.dir/amd_isa_devices.cpp.o
+[  8%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/hwcpipe_communication.cpp.o
+[  9%] Building CXX object renderdoc/driver/ihv/amd/CMakeFiles/rdoc_amd.dir/amd_isa_posix.cpp.o
+[  9%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_counters.cpp.o
+[  9%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_compile.cpp.o
+[  9%] Building CXX object renderdoc/driver/ihv/amd/CMakeFiles/rdoc_amd.dir/amd_rgp.cpp.o
+[  9%] Built target rdoc_amd
+[  9%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/target_control.cpp.o
+[  9%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/hwcpipe_api.cpp.o
+[ 10%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_debug.cpp.o
+[ 10%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_overlay.cpp.o
+[ 10%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/gatord_xml_reader.cpp.o
+[ 11%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_debug_setup.cpp.o
+[ 12%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_outputwindow.cpp.o
+[ 13%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/gator_api.cpp.o
+[ 13%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/remote_server.cpp.o
+[ 13%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/gator_message.cpp.o
+[ 13%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/message_util.cpp.o
+[ 14%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/socket.cpp.o
+[ 14%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_postvs.cpp.o
+[ 14%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_rendermesh.cpp.o
+[ 14%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/thirdparty/hwcpipe/hwcpipe.cpp.o
+[ 14%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_debug_glsl450.cpp.o
+[ 15%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/settings.cpp.o
+[ 15%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/thirdparty/hwcpipe/vendor/arm/mali/mali_profiler.cpp.o
+[ 15%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_rendertexture.cpp.o
+[ 15%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_debug.cpp.o
+[ 15%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_shader_feedback.cpp.o
+[ 15%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/thirdparty/hwcpipe/vendor/arm/pmu/pmu_counter.cpp.o
+[ 16%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_reflect.cpp.o
+[ 17%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_overlay.cpp.o
+[ 18%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_rendertext.cpp.o
+[ 18%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/replay_proxy.cpp.o
+[ 18%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_processor.cpp.o
+[ 19%] Building CXX object renderdoc/driver/ihv/arm/CMakeFiles/rdoc_arm.dir/official/lizard/thirdparty/hwcpipe/vendor/arm/pmu/pmu_profiler.cpp.o
+[ 19%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_msaa_array_conv.cpp.o
+[ 19%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/intervals_tests.cpp.o
+[ 19%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_disassemble.cpp.o
+[ 19%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_driver.cpp.o
+[ 19%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_msaa_array_conv.cpp.o
+[ 19%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/bit_flag_iterator_tests.cpp.o
+[ 20%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/spirv_stringise.cpp.o
+[ 20%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_outputwindow.cpp.o
+[ 20%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_initstate.cpp.o
+[ 20%] Built target rdoc_arm
+[ 21%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/android.cpp.o
+[ 21%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/OGLCompilersDLL/InitializeDll.cpp.o
+[ 21%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/GlslangToSpv.cpp.o
+[ 22%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_rendermesh.cpp.o
+[ 23%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_manager.cpp.o
+[ 23%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/InReadableOrder.cpp.o
+[ 23%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/android_patch.cpp.o
+[ 23%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_renderstate.cpp.o
+[ 23%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_rendertexture.cpp.o
+[ 24%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/Logger.cpp.o
+[ 24%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_rendertext.cpp.o
+[ 24%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/android_tools.cpp.o
+[ 24%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_shader_cache.cpp.o
+[ 24%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_replay.cpp.o
+[ 24%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/SpvBuilder.cpp.o
+[ 25%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/android_utils.cpp.o
+[ 26%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_dispatchtables.cpp.o
+[ 26%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/android_manifest.cpp.o
+[ 26%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/SpvTools.cpp.o
+[ 26%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_image_states.cpp.o
+[ 26%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/jdwp.cpp.o
+[ 27%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_resources.cpp.o
+[ 28%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/SPIRV/SpvPostProcess.cpp.o
+[ 29%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/jdwp_util.cpp.o
+[ 29%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_program_iterate.cpp.o
+[ 29%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/GenericCodeGen/CodeGen.cpp.o
+[ 29%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_shader_refl.cpp.o
+[ 29%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/android/jdwp_connection.cpp.o
+[ 29%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_info.cpp.o
+[ 29%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/plugins.cpp.o
+[ 30%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_initstate.cpp.o
+[ 30%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/GenericCodeGen/Link.cpp.o
+[ 30%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_manager.cpp.o
+[ 31%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/resource_manager.cpp.o
+[ 32%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_stringise.cpp.o
+[ 33%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/Constant.cpp.o
+[ 33%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/core/sparse_page_table.cpp.o
+[ 33%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_memory.cpp.o
+[ 33%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/glslang_tab.cpp.o
+[ 33%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/hooks/hooks.cpp.o
+[ 34%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_pixelhistory.cpp.o
+[ 34%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_buffer_funcs.cpp.o
+[ 34%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/maths/camera.cpp.o
+[ 35%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/maths/formatpacking.cpp.o
+[ 35%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/iomapper.cpp.o
+[ 35%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_debug_funcs.cpp.o
+[ 35%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/maths/matrix.cpp.o
+[ 35%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_replay.cpp.o
+[ 36%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_draw_funcs.cpp.o
+[ 35%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/maths/vec.cpp.o
+[ 36%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/InfoSink.cpp.o
+[ 37%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/os_specific.cpp.o
+[ 37%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/app_api.cpp.o
+[ 37%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_resources.cpp.o
+[ 37%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/basic_types_tests.cpp.o
+[ 38%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/capture_options.cpp.o
+[ 39%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/Initialize.cpp.o
+[ 40%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_shaderdebug.cpp.o
+[ 40%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/dummy_driver.cpp.o
+[ 40%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/Intermediate.cpp.o
+[ 40%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/capture_file.cpp.o
+[ 40%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_state.cpp.o
+[ 40%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_emulated.cpp.o
+[ 41%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/entry_points.cpp.o
+[ 41%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/intermOut.cpp.o
+[ 41%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_serialise.cpp.o
+[ 41%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/replay_driver.cpp.o
+[ 41%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_framebuffer_funcs.cpp.o
+[ 41%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/replay_output.cpp.o
+[ 42%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/IntermTraverse.cpp.o
+[ 42%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_stringise.cpp.o
+[ 42%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_get_funcs.cpp.o
+[ 42%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/replay/replay_controller.cpp.o
+[ 42%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/limits.cpp.o
+[ 43%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_interop_funcs.cpp.o
+[ 43%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/linkValidate.cpp.o
+[ 44%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_layer.cpp.o
+[ 45%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/serialiser.cpp.o
+[ 46%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/parseConst.cpp.o
+[ 46%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_query_funcs.cpp.o
+[ 46%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/lz4io.cpp.o
+[ 46%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/ParseContextBase.cpp.o
+[ 46%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/imagestate_tests.cpp.o
+[ 46%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/zstdio.cpp.o
+[ 46%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_sampler_funcs.cpp.o
+[ 46%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/imgrefs_tests.cpp.o
+[ 47%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/streamio.cpp.o
+[ 48%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_shader_funcs.cpp.o
+[ 48%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/rdcfile.cpp.o
+[ 48%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/ParseHelper.cpp.o
+[ 49%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_cmd_funcs.cpp.o
+[ 49%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/codecs/xml_codec.cpp.o
+[ 50%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/PoolAlloc.cpp.o
+[ 50%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_descriptor_funcs.cpp.o
+[ 50%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_state_funcs.cpp.o
+[ 51%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/codecs/chrome_json_codec.cpp.o
+[ 51%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/comp_io_tests.cpp.o
+[ 51%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_device_funcs.cpp.o
+[ 51%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/serialiser_tests.cpp.o
+[ 51%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/propagateNoContraction.cpp.o
+[ 52%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/serialise/streamio_tests.cpp.o
+[ 52%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/strings/grisu2.cpp.o
+[ 53%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_draw_funcs.cpp.o
+[ 53%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/strings/string_utils.cpp.o
+[ 53%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_texture_funcs.cpp.o
+[ 53%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/strings/utf8printf.cpp.o
+[ 54%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/jpeg-compressor/jpgd.cpp.o
+[ 54%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpAtom.cpp.o
+[ 55%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/jpeg-compressor/jpge.cpp.o
+[ 55%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/wrappers/gl_uniform_funcs.cpp.o
+[ 55%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/catch/catch.cpp.o
+[ 56%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/pugixml/pugixml.cpp.o
+[ 56%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpContext.cpp.o
+[ 56%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/lz4/lz4.c.o
+[ 56%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/gl_hooks.cpp.o
+[ 57%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/preprocessor/Pp.cpp.o
+[ 57%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/md5/md5.c.o
+[ 58%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/miniz/miniz.c.o
+[ 58%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_dynamic_funcs.cpp.o
+[ 58%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpScanner.cpp.o
+[ 58%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/superluminal/superluminal.cpp.o
+[ 58%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_get_funcs.cpp.o
+[ 58%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/debug.c.o
+[ 59%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/entropy_common.c.o
+[ 59%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/error_private.c.o
+[ 59%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/preprocessor/PpTokens.cpp.o
+[ 59%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/fse_compress.c.o
+[ 59%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/fse_decompress.c.o
+[ 60%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/hist.c.o
+[ 60%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/huf_compress.c.o
+[ 60%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/huf_decompress.c.o
+[ 60%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/egl_platform.cpp.o
+[ 61%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_misc_funcs.cpp.o
+[ 62%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/pool.c.o
+[ 62%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/threading.c.o
+[ 62%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/xxhash.c.o
+[ 63%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/reflection.cpp.o
+[ 64%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_common.c.o
+[ 64%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_compress.c.o
+[ 64%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_queue_funcs.cpp.o
+[ 64%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_decompress.c.o
+[ 64%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/RemoveTree.cpp.o
+[ 65%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_double_fast.c.o
+[ 65%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_fast.c.o
+[ 65%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_lazy.c.o
+[ 66%] Building CXX object renderdoc/driver/gl/CMakeFiles/rdoc_gl.dir/egl_hooks.cpp.o
+[ 66%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_ldm.c.o
+[ 66%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/Scan.cpp.o
+[ 67%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstd_opt.c.o
+[ 68%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/ShaderLang.cpp.o
+[ 68%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/zstd/zstdmt_compress.c.o
+[ 68%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/stb/stb_impl.c.o
+[ 68%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_resource_funcs.cpp.o
+[ 69%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/3rdparty/tinyexr/tinyexr.cpp.o
+[ 69%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_shader_funcs.cpp.o
+[ 69%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/SymbolTable.cpp.o
+[ 69%] Building C object renderdoc/CMakeFiles/rdoc.dir/3rdparty/tinyfiledialogs/tinyfiledialogs.c.o
+[ 69%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_stringio.cpp.o
+[ 70%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_sync_funcs.cpp.o
+[ 70%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/Versions.cpp.o
+[ 71%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_callstack.cpp.o
+[ 71%] Built target rdoc_gl
+[ 71%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/wrappers/vk_wsi_funcs.cpp.o
+[ 71%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_process.cpp.o
+[ 71%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_posix.cpp.o
+[ 71%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_threading.cpp.o
+[ 71%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_hook.cpp.o
+[ 72%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/MachineIndependent/attribute.cpp.o
+[ 73%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/android/android_network.cpp.o
+[ 73%] Building CXX object renderdoc/driver/shaders/spirv/CMakeFiles/rdoc_spirv.dir/__/__/__/3rdparty/glslang/glslang/OSDependent/Unix/ossource.cpp.o
+[ 73%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/posix_network.cpp.o
+[ 74%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_android.cpp.o
+[ 74%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/posix_process.cpp.o
+[ 75%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/posix_stringio.cpp.o
+[ 75%] Built target rdoc_spirv
+[ 75%] Building CXX object renderdoc/driver/vulkan/CMakeFiles/rdoc_vulkan.dir/vk_layer_android.cpp.o
+[ 75%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/os/posix/posix_threading.cpp.o
+[ 75%] Building CXX object renderdoc/CMakeFiles/rdoc.dir/data/glsl_shaders.cpp.o
+[ 75%] Built target rdoc
+[ 75%] Built target rdoc_vulkan
+[ 75%] Generating ../bin/include-bin
+[ 78%] Generating CMakeFiles/data.src/driver/vulkan/renderdoc.json.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/blit.vert.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/array2ms.comp.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/checkerboard.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/deptharr2ms.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/depthms2arr.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/discard.frag.c
+[ 78%] Generating CMakeFiles/data.src/data/glsl/fixedcol.frag.c
+[ 79%] Generating CMakeFiles/data.src/data/glsl/glsl_globals.h.c
+[ 79%] Generating CMakeFiles/data.src/data/glsl/gl_texsample.h.c
+[ 79%] Generating CMakeFiles/data.src/data/glsl/glsl_ubos.h.c
+[ 79%] Generating CMakeFiles/data.src/data/glsl/gles_texsample.h.c
+[ 79%] Generating CMakeFiles/data.src/data/glsl/gltext.frag.c
+[ 80%] Generating CMakeFiles/data.src/data/glsl/mesh.comp.c
+[ 80%] Generating CMakeFiles/data.src/data/glsl/gltext.vert.c
+[ 81%] Generating CMakeFiles/data.src/data/glsl/histogram.comp.c
+[ 81%] Generating CMakeFiles/data.src/data/glsl/mesh.frag.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/mesh.geom.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/mesh.vert.c
+[ 82%] Generating CMakeFiles/data.src/data/glsl/minmaxresult.comp.c
+[ 83%] Generating CMakeFiles/data.src/data/glsl/minmaxtile.comp.c
+[ 83%] Generating CMakeFiles/data.src/data/glsl/ms2array.comp.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy.comp.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy_depth.comp.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_primid.frag.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/quadresolve.frag.c
+[ 84%] Generating CMakeFiles/data.src/data/glsl/shaderdebug_sample.vert.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/quadwrite.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/texdisplay.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/trisize.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/texremap.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/trisize.geom.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/vk_texsample.h.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/vktext.frag.c
+[ 85%] Generating CMakeFiles/data.src/data/glsl/vktext.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/sourcecodepro.ttf.c
+[ 86%] Generating ../bin/include-bin
+[ 86%] Generating CMakeFiles/data.src/data/glsl/checkerboard.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/blit.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/glsl_ubos.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/glsl_globals.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/histogram.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/fixedcol.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/mesh.geom.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/minmaxresult.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/minmaxtile.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/quadresolve.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/quadwrite.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_mscopy_depth.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/pixelhistory_primid.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/shaderdebug_sample.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/texremap.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/texdisplay.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gl_texsample.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gles_texsample.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/vk_texsample.h.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gltext.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/vktext.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/gltext.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/vktext.vert.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/array2ms.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/ms2array.comp.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/trisize.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/deptharr2ms.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/trisize.geom.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/depthms2arr.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/glsl/discard.frag.c
+[ 86%] Generating CMakeFiles/data.src/data/sourcecodepro.ttf.c
+[ 86%] Generating CMakeFiles/data.src/driver/vulkan/renderdoc.json.c
+[ 87%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/blit.vert.c.o
+[ 87%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/glsl_ubos.h.c.o
+[ 87%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/checkerboard.frag.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/glsl_globals.h.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/fixedcol.frag.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.comp.c.o
+[ 88%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/histogram.comp.c.o
+[ 89%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.geom.c.o
+[ 89%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.frag.c.o
+[ 89%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/mesh.vert.c.o
+[ 90%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/minmaxresult.comp.c.o
+[ 90%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/minmaxtile.comp.c.o
+[ 90%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/quadresolve.frag.c.o
+[ 91%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/quadwrite.frag.c.o
+[ 91%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/pixelhistory_mscopy.comp.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/pixelhistory_primid.frag.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/pixelhistory_mscopy_depth.comp.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/shaderdebug_sample.vert.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/texdisplay.frag.c.o
+[ 92%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/texremap.frag.c.o
+[ 93%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gl_texsample.h.c.o
+[ 93%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/vk_texsample.h.c.o
+[ 93%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gles_texsample.h.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gltext.frag.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/gltext.vert.c.o
+[ 94%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/vktext.frag.c.o
+[ 95%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/vktext.vert.c.o
+[ 95%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/array2ms.comp.c.o
+[ 95%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/ms2array.comp.c.o
+[ 96%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/trisize.frag.c.o
+[ 96%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/trisize.geom.c.o
+[ 96%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/deptharr2ms.frag.c.o
+[ 96%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/depthms2arr.frag.c.o
+[ 97%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/glsl/discard.frag.c.o
+[ 97%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/data/sourcecodepro.ttf.c.o
+[ 97%] Building C object renderdoc/CMakeFiles/renderdoc.dir/CMakeFiles/data.src/driver/vulkan/renderdoc.json.c.o
+[ 98%] Linking CXX shared library ..\lib\libVkLayer_GLES_RenderDoc.so
+[ 98%] Built target renderdoc
+[ 99%] Building CXX object renderdoccmd/CMakeFiles/renderdoccmd.dir/renderdoccmd.cpp.o
+[ 99%] Building CXX object renderdoccmd/CMakeFiles/renderdoccmd.dir/renderdoccmd_android.cpp.o
+[ 99%] Building C object renderdoccmd/CMakeFiles/renderdoccmd.dir/D_/Android/sdk/ndk/21.4.7075529/sources/android/native_app_glue/android_native_app_glue.c.o
+[100%] Linking CXX shared library ..\lib\librenderdoccmd.so
+[100%] Built target renderdoccmd
+[100%] Generating debug.keystore
+
+Warning:
+JKS ▒▒Կ▒▒ʹ▒▒ר▒ø▒ʽ▒▒▒▒▒▒ʹ▒▒ "keytool -importkeystore -srckeystore F:/F2022-02/renderdoc/build-android64/renderdoccmd/debug.keystore -destkeystore F:/F2022-02/renderdoc/build-android64/renderdoccmd/debug.keystore -deststoretype pkcs12" Ǩ▒Ƶ▒▒▒ҵ▒▒׼▒▒ʽ PKCS12▒▒
+[100%] Generating ../bin/org.renderdoc.renderdoccmd.arm64.apk
+Warning in obj\org\renderdoc\renderdoccmd\arm64\Loader.class:
+  Type `java.lang.System` was not found, it is required for default or static interface methods desugaring of `void org.renderdoc.renderdoccmd.arm64.Loader.<clinit>()`
+Warning in obj\org\renderdoc\renderdoccmd\arm64\Loader.class:
+  Type `android.app.NativeActivity` was not found, it is required for default or static interface methods desugaring of `void org.renderdoc.renderdoccmd.arm64.Loader.onCreate(android.os.Bundle)`
+Warning in obj\org\renderdoc\renderdoccmd\arm64\Loader.class:
+  Type `java.lang.Thread` was not found, it is required for default or static interface methods desugaring of `void org.renderdoc.renderdoccmd.arm64.Loader.onCreate(android.os.Bundle)`
+[100%] Built target apk
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android64
+$ start .
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android64
+$ cd .
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android64
+$ code .
+bash: code: command not found
+
+Administrator@KING-20180416BY MINGW64 /f/F2022-02/renderdoc/build-android64
+$
