@@ -6,7 +6,7 @@ https://github.com/nzcv/note/discussions/categories/q-a
 
 ## Arm64汇编学习(B站视频, 欢迎关注)
 
-【[晓梦学汇编]01. Arm汇编进位标志位Carry Flag】 https://www.bilibili.com/video/BV1Gg1mYrEyZ/?share_source=copy_web&vd_source=1bfa7ae67809f98778bc9000f433e622
+[晓梦学汇编01. Arm汇编进位标志位Carry Flag](https://www.bilibili.com/video/BV1Gg1mYrEyZ/?share_source=copy_web&vd_source=1bfa7ae67809f98778bc9000f433e622)
 
 ## Arm64汇编学习(站在编译器的角度学习)
 
