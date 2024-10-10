@@ -4,6 +4,10 @@
 
 https://github.com/nzcv/note/discussions/categories/q-a
 
+## Arm64汇编学习(B站视频, 欢迎关注)
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113265988408477&bvid=BV1Gg1mYrEyZ&cid=26195266389&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 ## Arm64汇编学习(站在编译器的角度学习)
 
 [01.Arm寄存器](https://github.com/nzcv/note/tree/master/arm/01register.md)
