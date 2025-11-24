@@ -1,0 +1,2 @@
+malloc_history -callTree -invert 2.75gb.memgraph > 2.75gb.ct
+python3 malloc_history_tool.py 2.92gb.ict 99 ''
